@@ -2,7 +2,7 @@
     background-color: gray;
     width: 200px;
     height: 200px;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 .flex{
     display: flex;
@@ -11,14 +11,14 @@
 }
 
 .cv1{
-    background-image: url("/src/Assets/Images/cover1.jpg");
+    background-image: url("../Assets/Images/cover1.jpg");
     background-size: contain;
 }
 .cv2{
-    background-image: url("/src/Assets/Images/cover2.jpg");
+    background-image: url("../Assets/Images/cover2.jpg");
     background-size: contain;
 }
 .cv3{
-    background-image: url("/src/Assets/Images/cover3.jpg");
+    background-image: url("../Assets/Images/cover3.jpg");
     background-size: contain;
 }
