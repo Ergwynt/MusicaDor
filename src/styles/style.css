@@ -1,13 +1,12 @@
 .cover{
     background-color: gray;
-    width: 200px;
-    height: 200px;
-    margin-bottom: 3%;
+    width: 210px;
+    height: 210px;
+    margin-bottom: 5px;
 }
 .flex{
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
 }
 
@@ -34,17 +33,20 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    z-index: 2;
-    margin-left: 15%;
+    z-index: -1;
+    transform: translate(-200px);
+    transition: transform 15s;
+    
+  
     
 }
 
 .detail{
-    background-color: orange;
+    background-image: url("../Assets/Images/cover1.jpg");
     border-radius: 50%;
     width: 130px;
     height: 130px;
-    z-index: 1;
+    
 }
 .label{
     background-color: rgb(255, 180, 41);
@@ -57,4 +59,10 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
+}
+
+.open + .vinyl{
+    transform: translate(-50px);
+    
+
 }
