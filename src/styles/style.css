@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .cv1{
@@ -21,4 +22,39 @@
 .cv3{
     background-image: url("../Assets/Images/cover3.jpg");
     background-size: contain;
+}
+
+.cv4{
+    background-image: url("../Assets/Images/cover4.jpg");
+    background-size: contain;
+}
+
+.vinyl {
+    background-color: black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    margin-left: 15%;
+    
+}
+
+.detail{
+    background-color: orange;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    z-index: 1;
+}
+.label{
+    background-color: rgb(255, 180, 41);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.hole{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
