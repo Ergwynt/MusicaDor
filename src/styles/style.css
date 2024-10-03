@@ -35,7 +35,7 @@
     height: 200px;
     z-index: -1;
     transform: translate(-200px);
-    transition: transform 15s;
+    transition: transform 2s;
     
   
     
